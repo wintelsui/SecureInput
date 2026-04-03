@@ -1,5 +1,5 @@
 {
-  "name": "secure-input",
+  "name": "@wintelsui/secure-input",
   "version": "1.0.0",
   "description": "Secure input component for Vue2 and Vue3",
   "type": "module",
@@ -9,6 +9,9 @@
     "./core": "./src/core/secureInputCore.js",
     "./vue2": "./src/vue2/index.js",
     "./vue3": "./src/vue3/index.js"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "scripts": {
     "test": "node --test tests/secureInputCore.test.js"
