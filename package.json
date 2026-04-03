@@ -1,0 +1,40 @@
+{
+  "name": "secure-input",
+  "version": "1.0.0",
+  "description": "Secure input component for Vue2 and Vue3",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": {
+    ".": "./src/index.js",
+    "./core": "./src/core/secureInputCore.js",
+    "./vue2": "./src/vue2/index.js",
+    "./vue3": "./src/vue3/index.js"
+  },
+  "scripts": {
+    "test": "node --test tests/secureInputCore.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wintelsui/SecureInput.git"
+  },
+  "keywords": [
+    "vue",
+    "vue2",
+    "vue3",
+    "secure-input",
+    "mask-input"
+  ],
+  "author": "wintelsui",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wintelsui/SecureInput/issues"
+  },
+  "homepage": "https://github.com/wintelsui/SecureInput#readme",
+  "peerDependencies": {
+    "vue": "^2.7.0 || ^3.3.0"
+  },
+  "files": [
+    "src",
+    "readme.md"
+  ]
+}
