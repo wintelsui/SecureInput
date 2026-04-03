@@ -11,7 +11,6 @@
 
 ![demo](assets/demo.png)
 
-
 组件支持实时更新、光标自由移动、任意位置删除和粘贴（自动过滤非法字符）。
 
 ## 功能特性
@@ -26,7 +25,7 @@
 ## 安装
 
 ```bash
-npm i secure-input
+npm install @wintelsui/secure-input
 ```
 
 ## Vue3 用法
@@ -34,7 +33,7 @@ npm i secure-input
 ```js
 import { createApp } from "vue";
 import App from "./App.vue";
-import Vue3Plugin from "secure-input/vue3";
+import Vue3Plugin from "@wintelsui/secure-input/vue3";
 
 const app = createApp(App);
 app.use(Vue3Plugin);
@@ -58,7 +57,7 @@ const idCard = ref("");
 ```js
 import Vue from "vue";
 import App from "./App.vue";
-import SecureInput from "secure-input/vue2";
+import SecureInput from "@wintelsui/secure-input/vue2";
 
 Vue.use(SecureInput);
 
@@ -112,8 +111,6 @@ export default {
 npm test
 ```
 
-## 示例
+## 许可证
 
-已提供可直接参考的示例：
-
-- `examples/README.md`
+[MIT](LICENSE) - Copyright (c) 2026 wintelsui
